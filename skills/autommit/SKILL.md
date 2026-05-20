@@ -3,6 +3,11 @@ name: autommit
 description: Automate commit messages using the Conventional Commits specification.
 disable-model-invocation: true
 argument-hint: (feature, files, domain)
+allowed-tools: 
+    - Bash(git stash*)
+    - Bash(git log*)
+    - Bash(git diff*)
+    - Bash(git show*)
 ---
 
 Format: `<type>(<scope>): <description>`
