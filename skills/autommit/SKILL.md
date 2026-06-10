@@ -3,7 +3,7 @@ name: autommit
 description: Automate commit messages using the Conventional Commits specification.
 disable-model-invocation: true
 argument-hint: (feature, files, domain)
-model: claude-3-5-haiku
+model: haiku
 allowed-tools: 
     - Bash(git stash*)
     - Bash(git log*)
