@@ -2,7 +2,7 @@
 name: autommit
 description: Automate commit messages using the Conventional Commits specification.
 disable-model-invocation: true
-argument-hint: (file, feature, domain)
+argument-hint: (atomic, feature, domain)
 model: haiku
 allowed-tools: 
     - Bash(git stash*)
@@ -13,10 +13,10 @@ allowed-tools:
 
 Format: `<type>(<scope>): <description>`
 
-Default strategy: `file`
+Default strategy: `atomic`
 ## Strategies
-- `file` - one commit per file for better granularity 
-- `features` - one commit per feature across files
+- `atomic` - atomic commits
+- `features` - feature commit across files
 - `domain` - group by business domain (auth, payments, etc.)
 
 $ARGUMENTS
