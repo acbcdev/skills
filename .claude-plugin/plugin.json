@@ -1,4 +1,8 @@
 {
   "name": "acbc-skills",
-  "skills": ["./skills/autommit/SKILL.md", "./skills/before-implement/SKILL.md"]
+  "skills": [
+    "./skills/autommit/SKILL.md",
+    "./skills/before-implement/SKILL.md",
+    "./skills/readme-writer/SKILL.md"
+  ]
 }
