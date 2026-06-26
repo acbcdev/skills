@@ -1,5 +1,5 @@
 ---
-name: feedback-loops
+name: setup-feedback-loops
 disable-model-invocation: true
 description: Wire stack-agnostic feedback loops (static check, tests, formatter) behind a pre-commit gate so an agent can verify its own work
 argument-hint: (run in a project root)

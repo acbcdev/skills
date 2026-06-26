@@ -3,6 +3,7 @@
   "skills": [
     "./skills/autommit/SKILL.md",
     "./skills/before-implement/SKILL.md",
+    "./skills/setup-feedback-loops/SKILL.md",
     "./skills/readme-writer/SKILL.md"
   ]
 }
