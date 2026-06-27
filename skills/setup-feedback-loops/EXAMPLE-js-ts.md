@@ -52,7 +52,3 @@ pnpm install --save-dev lint-staged
 ```
 
 Run Prettier on staged file, auto-restage. All AI code match style now. Add ESLint here too — work nice with lint-staged.
-
-## Why work for AI
-
-Agent no frustrated by repeat. Code fail typecheck or test → agent retry. Make feedback loop (pre-commit especially) powerful for AI-driven dev.
