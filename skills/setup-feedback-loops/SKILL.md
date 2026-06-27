@@ -55,3 +55,7 @@ Done: hook file exist and executable.
 Stage deliberate error static check or tests will catch (type error, failing assert), attempt commit, confirm BLOCKED, then clean up error.
 
 Done: commit blocked (RED). Loop that never go RED not a feedback loop — if commit succeed, fix hook before finishing.
+
+---
+
+Concrete JS/TS walkthrough (TS + Vitest + Husky + lint-staged): [EXAMPLE-js-ts.md](./EXAMPLE-js-ts.md).
