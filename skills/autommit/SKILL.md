@@ -13,7 +13,7 @@ allowed-tools:
 
 Format: `<type>(<scope>): <description>`
 
-Default strategy: `atomic`
+<default> strategy `atomic` </default>
 ## Strategies
 - `atomic` - atomic commits
 - `features` - feature commit across files
